@@ -46,12 +46,14 @@ base_images:
 releases:
   initial:
     candidate:
+      architecture: multi
       product: ocp
       relative: 1
       stream: ci
       version: "4.17"
   latest:
     candidate:
+      architecture: multi
       product: ocp
       stream: ci
       version: "4.17"
